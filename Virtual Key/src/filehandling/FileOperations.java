@@ -39,11 +39,15 @@ public class FileOperations {
 				  		case 3:search.searchTheFile(path);
 				  			   break;
 				  		case 4:continue label;
+				  		
+				  		default: System.out.println("Invalid Operation in File opeartions");
+				  		
 				  		       
 				  		}
 				}
 			 
-			 case 3:System.exit(0);
+			 case 3:System.out.println("Program terminated Succesfully");
+				    System.exit(0);
 			        break;
 			 default:System.out.println("invalid operation");
 			}
